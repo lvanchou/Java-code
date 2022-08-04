@@ -1,26 +1,43 @@
-//杨辉三角
+//杨辉三角（双方法解决）
 
 import java.util.Scanner;
 public class triarr {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("请输入杨辉三角的行列数：");
-        int n=sc.nextInt();
+        int n = sc.nextInt();
         tri(n);
     }
-    public static void tri(int n){
-        //定义行列数组
+
+    public static void tri(int n) {
+
+        /*
+        //[n][n]解决办法
+        int[][] arr = new int[n][n];
+        */
+
+        //[n][]解决办法
         int[][] arr=new int [n][];
         //分配一维数组空间
         for (int x=0;x< arr.length;x++){
             arr[x]=new int [x+1];
         }
+
         //赋值1
+
+        /*
+        for (int x = 0; x < arr.length; x++) {
+            for (int y = 0; y <= x; y++) {
+                if (y == 0 || y == x) {
+                    arr[x][y] = 1;
+        */
+
         for(int x=0;x< arr.length;x++){
             for (int y=0;y<x+1;y++){
                 if (y==0||y==x){
                     arr[x][y]=1;
                 }
+
                 //规律赋值
                 else{
                     for(int x1=1;x1< arr.length;x1++) {
@@ -31,13 +48,21 @@ public class triarr {
                 }
             }
         }
+
         //输出结果
+
+        /*for (int x=0;x< arr.length;x++){
+            for (int y=0;y<=x;y++){
+                System.out.print(arr[x][y]+" ");
+            }
+            System.out.println();
+        }*/
+
         for (int x=0;x< arr.length;x++){
-            for (int y=0;y<arr[x].length;y++){
+            for (int y=0;y<=arr[x].length-1;y++){
                 System.out.print(arr[x][y]+" ");
             }
             System.out.println();
         }
     }
-
 }
