@@ -3,14 +3,16 @@
 import java.util.Scanner;
 public class arroperation {
     public static int search(int []arr,int putin){
-        int index=0;
+        //int index=-1;
        for(int x=0;x< arr.length;x++){
             if(arr[x]==putin){
-                index=x;
-                break;
+                return x;
+                /*index=x;
+                break;*/
             }
         }
-        return index;
+       return -1;
+        //return index;
     }
 
     public static void main(String[] args) {
