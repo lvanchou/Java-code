@@ -4,7 +4,7 @@ import java.util.Scanner;
 //基本类
 class sum{
     private int a;
-    private int b;
+    private int b;//此处使用成员变量不好，因为这不是在描述一个事务的属性！！！
 
     public void plus(int a,int b){
         System.out.println("sum:"+(a+b));
