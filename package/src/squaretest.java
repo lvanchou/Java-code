@@ -1,25 +1,6 @@
 //长方形的面积和周长的类方法
 
 import java.util.Scanner;
-
-class cal{
-    private int lenght;
-    private int width;
-
-    public cal(int lenght,int width){
-        this.lenght=lenght;
-        this.width=width;
-    }
-
-    public int cri(){
-        return (lenght+width)*2;
-    }
-
-    public int squ() {
-        return lenght*width;
-    }
-}
-
 public class squaretest {
     public static void main(String[] args) {
         Scanner sc1=new Scanner(System.in);
