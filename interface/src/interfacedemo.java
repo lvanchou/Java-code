@@ -450,9 +450,9 @@ public class interfacedemo {
 
                         //打印报告列表
                         if (x==num-1) {
-                            System.out.println("你是否要打印成员报告后退出？y/n");
-                            String s1 = sc.next();
-                            if () {
+                            System.out.println("你是否要打印成员报告后退出？1.打印2.不打印");
+                            int p = sc.nextInt();
+                            if (p == 1) {
                                 s.getmember();
                             } else if (p == 2) {
                                 break;

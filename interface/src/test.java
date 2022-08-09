@@ -11,8 +11,8 @@ public class test {
         Scanner sc=new Scanner(System.in);     //y:     n:110
         System.out.println("y/n");
         String y=sc.next();
-        int x=(int)y
-        System.out.println(x);
+        //int x=(int)y
+        //System.out.println(x);
         //switch (x){
           //  case 110:
             //    System.out.println("nnnnnnn");
