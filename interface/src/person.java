@@ -7,6 +7,7 @@ public abstract class person {
  //定义成员变量
  private String Name;
  private int Age;
+ static int x=0;
  //某国家队的国籍是统一的，用静态方法
  private static String Country;
 
@@ -47,7 +48,8 @@ public abstract class person {
  //重载地址值为字符
  @Override
  public String toString() {
-  return "人员信息：" + "姓名：'" + Name + '\'' + ", 年龄：" + Age +"国家："+ '\''+Country;
+  x++;
+  return "                                参赛者"+x+"的信息：" + "姓名：'" + Name + '\'' + ", 年龄：" + Age +"国家：'"+Country+ '\''+"                                "+'\n';
  }
 
  //吃饭睡觉方法
@@ -60,12 +62,14 @@ public abstract class person {
  }
 
  //展示基本信息的方法
- public void showbasic(){
-  System.out.println("个人信息：");
+ public void showbehavior(String Country,String Name,int Age){
+  System.out.println("该参赛者信息：");
   System.out.println("国家："+Country+"    "+"姓名："+Name+"    "+"年龄"+"    "+Age);
   System.out.println("基本行为：");
   eat();
   sleep();
+  System.out.println("特别行为：");
+
  }
 }
 
@@ -126,6 +130,8 @@ class badmintonathlete extends athlete{
  //需要构造方法
   public badmintonathlete(){
    super();
+   eat();
+   sleep();
   }
 
   public badmintonathlete(String Name, int Age, String Country){
@@ -145,6 +151,8 @@ class footballathlete extends athlete{
  //需要构造方法
  public footballathlete(){
   super();
+  eat();
+  sleep();
  }
 
  public footballathlete(String Name, int Age, String Country){
@@ -164,6 +172,8 @@ class badmintoncoach extends coach{
  //需要构造方法
  public badmintoncoach(){
   super();
+  eat();
+  sleep();
  }
 
  public badmintoncoach(String Name, int Age, String Country){
@@ -183,6 +193,8 @@ class footballcoach extends coach{
  //需要构造方法
  public footballcoach(){
   super();
+  eat();
+  sleep();
  }
 
  public footballcoach(String Name, int Age, String Country){

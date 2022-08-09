@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/interfacedemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/orderputout.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
