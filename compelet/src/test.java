@@ -1,6 +1,6 @@
 public class test {
     public static void main(String[] args) {
-        outer.method.show();
+        outer.method().show();
     }
 }
 
@@ -10,7 +10,11 @@ interface inter{
 
 class  outer {
     //²¹È«´úÂë
- inter a=new inter(){
-     
-    };
-}
+    public static inter method() {
+        return new inter() {
+            public void show() {
+                System.out.println("Helloworld");
+            }
+        };
+    }
+        }

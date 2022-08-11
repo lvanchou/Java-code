@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed936696-e8c1-45e4-8344-795fc76333f2" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compelet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/athlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/athlete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/badmintonathlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/badmintonathlete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/badmintoncoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/badmintoncoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/coach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/footballathlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/footballathlete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/footballcoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/footballcoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/globalbadmintonathlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/globalbadmintonathlete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/globalbadmintoncoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/globalbadmintoncoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/globalfootballathlete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/globalfootballathlete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/globalfootballcoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/globalfootballcoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/imformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/imformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/interfacedemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/interfacedemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/interfacedemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/interfacedemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/out/production/interface/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/out/production/interface/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/src/interfacedemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/src/interfacedemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/src/orderputout.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/src/orderputout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface/src/person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/src/person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +33,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="compelet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -70,6 +58,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660233279126</updated>
-      <workItem from="1660233280260" duration="295000" />
+      <workItem from="1660233280260" duration="973000" />
     </task>
     <servers />
   </component>
