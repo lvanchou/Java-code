@@ -20,6 +20,10 @@ public abstract class person {
   this.Country=Country;
  }
 
+ public static int getX() {
+  return x;
+ }
+
  //set,get方法
   public void setName(String name) {
   Name = name;
@@ -48,6 +52,7 @@ public abstract class person {
  //重载地址值为字符
  @Override
  public String toString() {
+  int x=0;
   x++;
   return "                                参赛者"+x+"的信息：" + "姓名：'" + Name + '\'' + ", 年龄：" + Age +"国家：'"+Country+ '\''+"                                "+'\n';
  }

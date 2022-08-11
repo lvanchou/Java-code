@@ -279,7 +279,10 @@ public class interfacedemo {
                             System.out.println("                                      以下输入参赛者" + (x + 1) + "的信息                                     ");
                             System.out.println();
 
+                           // imformation s1=new imformation();
+
                         //记录基本信息
+                        s.restore();
                         s.setImformation(Country);
 
                         //记录详细信息
@@ -454,6 +457,7 @@ public class interfacedemo {
                             int p = sc.nextInt();
                             if (p == 1) {
                                 s.getmember();
+                                //System.out.println(s.getx());
                             } else if (p == 2) {
                                 break;
                             } else {

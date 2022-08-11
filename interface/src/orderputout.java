@@ -59,6 +59,14 @@ class orderputout {
             //}
             return -1;
             }
+
+            public void restore(){
+            this.x=0;
+            }
+
+            public int getx(){
+            return this.x;
+            }
         }
 
 
